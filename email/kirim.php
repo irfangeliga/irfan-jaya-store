@@ -83,9 +83,9 @@
             $mail->SMTPDebug = 1;
             $mail->Port = 465;
             $mail->SMTPAuth = true;
-            $mail->Username = "irfangeliga@gmail.com"; //user email
-            $mail->Password = "hurkzzzzdjewjzdz"; //password email 
-            $mail->SetFrom("irfangeliga@gmail.com","IRFAN JAYA Store"); //set email pengirim
+            $mail->Username = "your email"; //user email
+            $mail->Password = "your password aplication"; //password email 
+            $mail->SetFrom("your email","IRFAN JAYA Store"); //set email pengirim
             $mail->Subject = $subjek; //subyek email
             $mail->AddAddress($tujuan);  // email tujuan
             $mail->MsgHTML($pesan); //pesan

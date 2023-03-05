@@ -7,7 +7,7 @@
             <b>KONTAK KAMI</b><br>
             whatsapp : 081240026869 <br>
             Email    :irfanjayaclothing@gmail.com <br> atau klik link dibawah <br>
-            <a href=" https://wa.me/081344055653?text=mau%20tanya%20tanya%20mengenai%20produknya%20kak" target="blank"  class="text-decoration-none">
+            <a href=" https://wa.me/yourNumber?text=mau%20tanya%20tanya%20mengenai%20produknya%20kak" target="blank"  class="text-decoration-none">
               <button type="button" class="btn btn-success"><i class="bi bi-whatsapp"></i>&nbsp;&nbsp;Irfan Jaya Hub</button></a>
           </div>
         </div>

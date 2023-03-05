@@ -23,7 +23,7 @@ curl_setopt_array($curl, array(
   CURLOPT_POSTFIELDS => "origin=".$_POST['kota_asal']."&destination=".$_POST['kota_tujuan']."&weight=".$_POST['berat']."&courier=".$_POST['kurir']."",
   CURLOPT_HTTPHEADER => array(
     "content-type: application/x-www-form-urlencoded",
-    "key: 98d7b73e908240b9e0de771cc41a09da"
+    "key: your api key"
   ),
 ));
 

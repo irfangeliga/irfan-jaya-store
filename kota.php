@@ -21,7 +21,7 @@
           CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
           CURLOPT_CUSTOMREQUEST => "GET",
           CURLOPT_HTTPHEADER => array(
-            "key: 98d7b73e908240b9e0de771cc41a09da"
+            "key: your api key"
           ),
         ));
         

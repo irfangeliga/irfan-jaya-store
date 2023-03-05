@@ -1,0 +1,14 @@
+abu hard = #AFB1AE
+abu tua = #757575
+abu 20% = #D8D8D8
+ABU 30%= #CCCCCC
+abu 70 % = B5B7BB
+abu 80% = #A8A9AD
+
+teori warna
+https://www.niagahoster.co.id/blog/warna-efektif-desain-website/
+
+template web
+https://www.bootstrapdash.com/blog/html-fashion-website-templates
+
+https://id.wix.com/website/templates/html/online-store/fashion-clothing

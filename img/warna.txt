@@ -1,0 +1,5 @@
+biru muda = #8ecae6
+hijau mix = #219ebc
+biru tua  = #023047
+kuning    = #ffb703
+orange	  = #fb8500

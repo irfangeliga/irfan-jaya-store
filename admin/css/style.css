@@ -1,0 +1,176 @@
+@font-face {
+  font-family: 'black';
+  src: url(../font/Blenda\ Script.otf);
+}
+@font-face {
+  font-family: 'menu';
+  src: url(../font/Matteo-Bold.otf);
+}
+@font-face {
+  font-family: 'menu2';
+  src: url(../font/Matteo-Medium.otf);
+}
+
+* {
+  font-family: 'menu2';
+}
+
+body {
+  background-color: #f7f7f7;
+}
+.bg {
+  background-color: white;
+}
+
+/* NAVBAR.PHP */
+.menu {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  margin: 10px 0 0 20px;
+  list-style: none;
+}
+
+.link-nav {
+  color: white !important;
+  position: relative;
+  font-size: 14px;
+  display: table;
+  width: 300px;
+  padding: 10px;
+  margin: 0 0 0 10px;
+  transition: all 0.6s ease;
+}
+
+.link-nav:hover {
+  /* background: black; */
+  color: rgb(224, 214, 75) !important;
+  transform: scale(1.2);
+  transition: all 0.6s ease;
+}
+.nav-logo {
+  transition: all 0.5s ease;
+  background-color: rgb(83, 86, 20, 0);
+  border: 0;
+}
+.nav-logo img {
+  height: 55px;
+  width: 55px;
+  border-radius: 50%;
+  border: 2px solid white;
+  margin: 0 10px 0 5px;
+}
+
+.navbar-brand {
+  font-family: 'black';
+  color: white !important;
+}
+
+.admin {
+  box-sizing: border-box;
+  font-family: 'menu2';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  background-image: linear-gradient(rgb(110, 109, 109), black);
+  width: 20rem;
+  overflow: hidden;
+  /* transition: width 0.2s linear; */
+  box-shadow: 0 20px 35px rgba(0, 0, 0, alpha);
+}
+/* 
+.admin:hover {
+  width: 300px;
+  transition: all 0.5s ease;
+} */
+
+.nav-list {
+  padding: 5px;
+  text-transform: uppercase;
+  position: relative;
+  margin-left: 30px;
+}
+.icon-admin {
+  position: relative;
+  height: 40px;
+  width: 70px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.logout {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+a:is(:link, :active, :visited).active {
+  color: rgb(224, 214, 75) !important;
+  background-color: #020100;
+}
+/* END NAVBAR.PHP */
+
+/* INDEX.PHP */
+.admin-body {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  /* height: 55rem; */
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+}
+.tabel {
+  width: 90rem;
+  height: 28rem;
+}
+
+table {
+  /* height: 45rem !important; */
+  overflow-y: auto;
+  overflow-x: hidden;
+  display: block;
+  width: auto !important;
+}
+td {
+  width: 20rem;
+  word-break: break-all;
+}
+table,
+th,
+td {
+  border: 1px solid !important;
+}
+/* END INDEX.PHP */
+
+/* FORM-INPUT.PHP */
+.body-input {
+  font-family: 'menu2';
+  background-color: #ffffff;
+  border: 1.5px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  box-shadow: 2px 2px 8px black;
+}
+
+.btn-tambah {
+  color: #f3f3ff;
+  background-color: #111118;
+}
+.btn-tambah:hover {
+  color: #111118;
+  background-color: #f3f3ff;
+  border: 1px solid #111118;
+}
+
+/* KONFIRMASI.PHP */
+/* .btn-konfirmasi {
+  margin-left: 100px;
+
+  margin-right: auto !important;
+  text-transform: uppercase;
+} */
+
+/* END */

@@ -1,0 +1,301 @@
+@font-face {
+  font-family: 'black';
+  src: url(../font/Blenda\ Script.otf);
+}
+@font-face {
+  font-family: 'menu';
+  src: url(../font/Matteo-Bold.otf);
+}
+@font-face {
+  font-family: 'menu2';
+  src: url(../font/Matteo-Medium.otf);
+}
+@font-face {
+  font-family: 'salma-longgar';
+  src: url(../font/salma-longgar.otf);
+}
+@font-face {
+  font-family: 'really';
+  src: url(../font/Really.ttf);
+}
+
+* {
+  font-family: 'salma-longgar';
+}
+
+/* register.php */
+.card-register {
+  border-radius: 40px;
+  border: 2px solid rgb(238, 238, 238);
+  box-shadow: inset;
+  box-shadow: 2px 3px 6px rgb(14, 13, 13);
+  background-color: #0a0b0c;
+  margin-right: auto;
+  margin-left: auto;
+  top: 10%;
+}
+
+.box {
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  display: block;
+}
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  background-image: url('https://wallpaperaccess.com/full/2489626.jpg');
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* login.php */
+
+.akun-link {
+  font-size: 85%;
+}
+
+/* index.php */
+
+.bg-nav {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  /* box-shadow: 2px 3px 8px black; */
+  background-image: linear-gradient(to bottom right, rgb(87, 88, 92), rgb(22, 24, 26));
+}
+.menu-user {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.keranjang {
+  border: solid 2px rgb(255, 251, 15);
+  border-radius: 10px;
+}
+.keranjang i {
+  color: rgb(255, 251, 15);
+}
+
+a:is(:link, :active, :visited).active {
+  color: rgb(240, 225, 25) !important;
+}
+
+/* .modal-body table {
+  opacity: 100% !important;
+  border: 1px solid black !important;
+} */
+
+.foto-profil {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 5px;
+  border: 1px solid white;
+  background-color: white;
+}
+
+.nav-profil {
+  left: -10px !important;
+  margin-top: 35px !important;
+}
+
+.notif {
+  z-index: auto;
+}
+.member {
+  outline: none;
+  list-style: none;
+}
+
+.head-produk {
+  color: transparent;
+  text-align: center;
+  animation: effect 2s linear infinite;
+}
+
+@keyframes effect {
+  0% {
+    background: linear-gradient(#008000, #00ff00);
+    -webkit-background-clip: text;
+  }
+
+  100% {
+    background: linear-gradient(#3ce7d7, #000fff);
+    -webkit-background-clip: text;
+  }
+}
+
+.img-cover {
+  height: 800px;
+  width: auto;
+}
+
+@media only screen and (max-width: 400px) {
+  .img-cover {
+    height: 290px;
+  }
+}
+.produk {
+  margin-left: auto;
+  margin-right: auto;
+}
+.img-produk {
+  height: 250px;
+  width: auto;
+  transition: 0.3s ease-in;
+  transition: 0.5 ease-in-out;
+}
+
+.img-produk:hover {
+  transform: scale(1.2);
+}
+
+.card-produk {
+  box-shadow: inset;
+  box-shadow: 2px 2px 6px rgb(14, 13, 13);
+  width: 18rem;
+  height: auto;
+  margin-bottom: 5rem;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 400px) {
+  .card-produk {
+    width: 18rem;
+    height: 25rem;
+  }
+
+  .rowme {
+    display: flex;
+  }
+
+  .column {
+    flex: 100%;
+    padding: 10px;
+    height: 300px;
+    margin-bottom: 10rem;
+  }
+}
+
+.foto-produk {
+  overflow: hidden;
+}
+.btn-more {
+  background-color: #219ebc;
+  color: white;
+  border-radius: 10px;
+  border: 2px solid #219ebc;
+  font-weight: bold;
+}
+
+.btn-more:hover {
+  color: #219ebc;
+  background-color: white;
+  border: 2px solid #219ebc;
+}
+
+footer {
+  background-color: #000000;
+  color: white;
+}
+
+.sub-judul-footer {
+  color: white;
+  margin-left: 150px;
+}
+
+/* DETAIL-PRODUK.PHP */
+.judul-detail {
+  font-size: 90px;
+  text-transform: uppercase;
+  opacity: 50%;
+  font-weight: bold;
+  text-align: center;
+}
+
+.btn-detail {
+  width: 23rem;
+  height: auto;
+}
+.btn-item {
+  padding: 10px 10px 10px 10px;
+  background-color: #0275d8;
+  border-radius: 0%;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+.btn-item:hover {
+  background-color: #ffffff;
+  outline: 2px solid #0275d8;
+  color: #0275d8;
+}
+.btn-item2 {
+  padding: 10px 10px 10px 10px;
+  background-color: #111118;
+  border-radius: 0%;
+  color: white;
+  margin-bottom: 10px;
+  text-decoration: none;
+  text-align: center;
+}
+.btn-item2:hover {
+  background-color: #ffffff;
+  outline: 2px solid #111118;
+  color: #111118;
+}
+
+.atribut-produk {
+  padding-right: 10rem;
+  top: 0;
+  padding-top: 0px;
+}
+
+table {
+  height: 300px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  display: block;
+  width: auto !important;
+}
+.modal-body {
+  overflow: hidden !important;
+}
+td {
+  width: 10rem;
+  word-break: break-all;
+}
+table,
+th,
+td {
+  border: 1px solid !important;
+}
+/* END */
+
+/* BELI.PHP */
+.btn-ongkir {
+  margin-left: 84%;
+  margin-bottom: 1rem;
+}
+/* END */
+
+/* PRODUK.PHP  */
+/* footer {
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+} */
+/* END */
+
+/* CHAT-PESANAN.PHP */
+.chat-body:hover {
+  background-color: rgb(224, 229, 231);
+}
+/* END */

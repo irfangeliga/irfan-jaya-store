@@ -1,0 +1,8 @@
+
+
+-inner join query
+-rapikan kolom database
+-tambahkan input resi pada laman konfirmasi pesanan
+-rapikan kode
+-kasi komentar 
+-stok berkurang jika dibeli
